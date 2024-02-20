@@ -1,0 +1,35 @@
+
+
+admins
+=====
+id      name        email       password
+
+
+users
+=====
+id      name        email       password        image(nullable)
+
+
+
+tags
+====
+id      slug        name
+
+
+programmings
+====
+id      slug        name
+
+
+articles
+====
+id      name        image       description         like_count      comment_count
+
+
+article_comments
+================
+id      article_id      user_id         comment_count
+
+
+
+
